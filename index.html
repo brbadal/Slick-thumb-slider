@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+    <title>Components</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/menu.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/thumb-slick-right.css" />
+</head>
+
+<body>
+    <header id="masthead" class="site-header">
+        <div class="container">
+            <div class="flex flex-wrap items-center justify-between w-full">
+                <div class="row-col mr-20 xl:mr-20">
+                    <div class="site-logo">
+                        <a href="/">Logo Place Here</a>
+                    </div>
+                </div>
+                <div class="row-col flex items-center">
+                    <div class="responsive-block-menu">
+                        <div class="mobile-navigation-icon" id="mobile-menu-trigger">
+                            <i></i>
+                        </div>
+                        <!--====================  mobile menu overlay ====================-->
+                        <div class="mobile-menu-overlay" id="mobile-menu-overlay">
+                            <div class="mobile-menu-overlay__inner">
+                                <div class="mobile-menu-overlay__header">
+                                    <div class="mobile-menu-content text-right">
+                                        <span class="mobile-navigation-close-icon" id="mobile-menu-close-trigger"></span>
+                                    </div>
+                                </div>
+                                <div class="mobile-menu-overlay__body">
+                                    <nav class="offcanvas-navigation">
+                                        <div class="menu-main-navigation-container">
+                                            <ul id="primary-menu" class="site-navigation menu">
+                                                <li class="menu-item current_page_item">
+                                                    <a href="#">Home</a>
+                                                </li>
+                                                <li class="menu-item menu-item-has-children">
+                                                    <a href="#">About</a>
+                                                    <ul class="sub-menu">
+                                                        <li class="menu-item">
+                                                            <a href="#">About One</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="#">About Two</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="#">About Three</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="#">About Four</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="menu-item menu-item-has-children">
+                                                    <a href="#">Services</a>
+                                                    <ul class="sub-menu">
+                                                        <li class="menu-item">
+                                                            <a href="#">Services One</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="#">Services Two</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="#">Services Three</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="#">Services Four</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">Contact</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                        <!--====================  End of mobile menu overlay  ====================-->
+                    </div>
+                    <nav id="site-navigation" class="main-navigation">
+                        <div class="menu-main-navigation-container">
+                            <ul id="primary-menu" class="menu">
+                                <li class="menu-item current_page_item">
+                                    <a href="/">Home</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#">About</a>
+                                    <ul class="sub-menu">
+                                        <li class="menu-item">
+                                            <a href="#">About One</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">About Two</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">About Three</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">About Four</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#">Services</a>
+                                    <ul class="sub-menu">
+                                        <li class="menu-item">
+                                            <a href="#">Services One</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">Services Two</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">Services Three</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">Services Four</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- #masthead -->
+    <div class="main-content">
+        <div class="container">
+            <section class="thumbnail-slider">
+                <div class="slider-head">
+                    <h2 class="slider-title">Thumb Slider</h2>
+                    <div class="slider-arrow2 arrow-custom">
+                        <span class="Slick-Prev slick-arrow arrow-style slick-active">
+                            <span class="arrow-move">
+                                <svg class="first-arrow" xmlns="http://www.w3.org/2000/svg" width="46.414" height="22.828" viewBox="0 0 46.414 22.828">
+                                    <path id="arrow" d="M1,11H45m0,0L34.647,1M45,11,34.647,21" transform="translate(46.414 22.414) rotate(180)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                                </svg>
+                            </span>
+                        </span>
+                        <span class="Slick-Next slick-arrow arrow-style slick-active">
+                            <span class="arrow-move">
+                                <svg class="first-arrow" xmlns="http://www.w3.org/2000/svg" width="46.414" height="22.828" viewBox="0 0 46.414 22.828">
+                                    <path id="arrow" d="M1,11H45m0,0L34.647,1M45,11,34.647,21" transform="translate(0 0.414)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                                </svg>
+                            </span>
+                        </span>
+                    </div>
+                </div>
+                <div class="slick-bg-slider right-move-column">
+                    <div>
+                        <div class="thumbnail-cards h-full relative">
+                            <a href="">
+                                <div class="thumbnail-bg-view">
+                                    <div class="thumbnail-bg" style="
+                      background-image: url(assets/images/thumb-slider.jpg);
+                    "></div>
+                                </div>
+                                <div class="thumbnail-content">
+                                    <h5 class="thumb-title">
+                                        Thumb title
+                                    </h5>
+                                    <div class="text-info-desc">
+                                        <p>
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+                                        </p>
+                                        <p>
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                        </p>
+                                    </div>
+                                    <div class="single-btn">
+                                        <span href="#" target="" class="site-btn border-btn sm-btn arrow-btn btn-border-black">
+                                            Read More
+                                            <span class="arrow-move">
+                                                <svg class="first-arrow" xmlns="http://www.w3.org/2000/svg" width="17.726" height="8.71" viewBox="0 0 17.726 8.71">
+                                                    <g id="Group_1" data-name="Group 1" transform="translate(-795.813 135.854)">
+                                                        <path id="icon_arrow" data-name="icon arrow" d="M0,21.5H17m0,0h0l-4-4m4.375,3.688L13,25.5" transform="translate(795.813 -153)" fill="none" stroke="#000" stroke-width="1"></path>
+                                                    </g>
+                                                </svg>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="thumbnail-cards h-full relative">
+                            <div class="thumbnail-bg-view">
+                                <div class="thumbnail-bg" style="
+                      background-image: url(assets/images/thumb-slider.jpg);
+                    "></div>
+                            </div>
+                            <div class="thumbnail-content">
+                                <h5 class="thumb-title">
+                                    Thumb title
+                                </h5>
+                                <div class="text-info-desc">
+                                    <p>
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+                                    </p>
+                                </div>
+                                <div class="single-btn">
+                                    <a href="#" target="" class="site-btn border-btn sm-btn arrow-btn btn-border-black">
+                                        Read More
+                                        <span class="arrow-move">
+                                            <svg class="first-arrow" xmlns="http://www.w3.org/2000/svg" width="17.726" height="8.71" viewBox="0 0 17.726 8.71">
+                                                <g id="Group_1" data-name="Group 1" transform="translate(-795.813 135.854)">
+                                                    <path id="icon_arrow" data-name="icon arrow" d="M0,21.5H17m0,0h0l-4-4m4.375,3.688L13,25.5" transform="translate(795.813 -153)" fill="none" stroke="#000" stroke-width="1"></path>
+                                                </g>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="thumbnail-cards h-full relative">
+                            <a href="">
+                                <div class="thumbnail-bg-view">
+                                    <div class="thumbnail-bg" style="
+                      background-image: url(assets/images/thumb-slider.jpg);
+                    "></div>
+                                </div>
+                                <div class="thumbnail-content">
+                                    <h5 class="thumb-title">
+                                        Thumb title
+                                    </h5>
+                                    <div class="text-info-desc">
+                                        <p>
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+                                        </p>
+                                    </div>
+                                    <div class="single-btn">
+                                        <span href="#" target="" class="site-btn border-btn sm-btn arrow-btn btn-border-black">
+                                            Read More
+                                            <span class="arrow-move">
+                                                <svg class="first-arrow" xmlns="http://www.w3.org/2000/svg" width="17.726" height="8.71" viewBox="0 0 17.726 8.71">
+                                                    <g id="Group_1" data-name="Group 1" transform="translate(-795.813 135.854)">
+                                                        <path id="icon_arrow" data-name="icon arrow" d="M0,21.5H17m0,0h0l-4-4m4.375,3.688L13,25.5" transform="translate(795.813 -153)" fill="none" stroke="#000" stroke-width="1"></path>
+                                                    </g>
+                                                </svg>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="thumbnail-cards h-full relative">
+                            <a href="">
+                                <div class="thumbnail-bg-view">
+                                    <div class="thumbnail-bg" style="
+                      background-image: url(assets/images/thumb-slider.jpg);
+                    "></div>
+                                </div>
+                                <div class="thumbnail-content">
+                                    <h5 class="thumb-title">
+                                        Thumb title
+                                    </h5>
+                                    <div class="text-info-desc">
+                                        <p>
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+                                        </p>
+                                    </div>
+                                    <div class="single-btn">
+                                        <span href="#" target="" class="site-btn border-btn sm-btn arrow-btn btn-border-black">
+                                            Read More
+                                            <span class="arrow-move">
+                                                <svg class="first-arrow" xmlns="http://www.w3.org/2000/svg" width="17.726" height="8.71" viewBox="0 0 17.726 8.71">
+                                                    <g id="Group_1" data-name="Group 1" transform="translate(-795.813 135.854)">
+                                                        <path id="icon_arrow" data-name="icon arrow" d="M0,21.5H17m0,0h0l-4-4m4.375,3.688L13,25.5" transform="translate(795.813 -153)" fill="none" stroke="#000" stroke-width="1"></path>
+                                                    </g>
+                                                </svg>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="thumbnail-cards h-full relative">
+                            <a href="">
+                                <div class="thumbnail-bg-view">
+                                    <div class="thumbnail-bg" style="
+                      background-image: url(assets/images/thumb-slider.jpg);
+                    "></div>
+                                </div>
+                                <div class="thumbnail-content">
+                                    <h5 class="thumb-title">
+                                        Thumb title
+                                    </h5>
+                                    <div class="text-info-desc">
+                                        <p>
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+                                        </p>
+                                    </div>
+                                    <div class="single-btn">
+                                        <span href="#" target="" class="site-btn border-btn sm-btn arrow-btn btn-border-black">
+                                            Read More
+                                            <span class="arrow-move">
+                                                <svg class="first-arrow" xmlns="http://www.w3.org/2000/svg" width="17.726" height="8.71" viewBox="0 0 17.726 8.71">
+                                                    <g id="Group_1" data-name="Group 1" transform="translate(-795.813 135.854)">
+                                                        <path id="icon_arrow" data-name="icon arrow" d="M0,21.5H17m0,0h0l-4-4m4.375,3.688L13,25.5" transform="translate(795.813 -153)" fill="none" stroke="#000" stroke-width="1"></path>
+                                                    </g>
+                                                </svg>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="space" style="height: 150px;"></div>
+            <!-- visible on left -->
+            <section class="thumbnail-slider left-visible">
+                <div class="slider-head">
+                    <h2 class="slider-title">Thumb Slider left visible on scroll</h2>
+                    <div class="slider-arrow3 arrow-custom">
+                        <span class="Slick-Prev slick-arrow arrow-style slick-active">
+                            <span class="arrow-move">
+                                <svg class="first-arrow" xmlns="http://www.w3.org/2000/svg" width="46.414" height="22.828" viewBox="0 0 46.414 22.828">
+                                    <path id="arrow" d="M1,11H45m0,0L34.647,1M45,11,34.647,21" transform="translate(46.414 22.414) rotate(180)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                                </svg>
+                            </span>
+                        </span>
+                        <span class="Slick-Next slick-arrow arrow-style slick-active">
+                            <span class="arrow-move">
+                                <svg class="first-arrow" xmlns="http://www.w3.org/2000/svg" width="46.414" height="22.828" viewBox="0 0 46.414 22.828">
+                                    <path id="arrow" d="M1,11H45m0,0L34.647,1M45,11,34.647,21" transform="translate(0 0.414)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                                </svg>
+                            </span>
+                        </span>
+                    </div>
+                </div>
+                <div class="left-visible-slide right-move-column">
+                    <div>
+                        <div class="thumbnail-cards h-full relative">
+                            <a href="">
+                                <div class="thumbnail-bg-view">
+                                    <div class="thumbnail-bg" style="
+                      background-image: url(assets/images/thumb-slider.jpg);
+                    "></div>
+                                </div>
+                                <div class="thumbnail-content">
+                                    <h5 class="thumb-title">
+                                        Thumb title
+                                    </h5>
+                                    <div class="text-info-desc">
+                                        <p>
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+                                        </p>
+                                        <p>
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                        </p>
+                                    </div>
+                                    <div class="single-btn">
+                                        <span href="#" target="" class="site-btn border-btn sm-btn arrow-btn btn-border-black">
+                                            Read More
+                                            <span class="arrow-move">
+                                                <svg class="first-arrow" xmlns="http://www.w3.org/2000/svg" width="17.726" height="8.71" viewBox="0 0 17.726 8.71">
+                                                    <g id="Group_1" data-name="Group 1" transform="translate(-795.813 135.854)">
+                                                        <path id="icon_arrow" data-name="icon arrow" d="M0,21.5H17m0,0h0l-4-4m4.375,3.688L13,25.5" transform="translate(795.813 -153)" fill="none" stroke="#000" stroke-width="1"></path>
+                                                    </g>
+                                                </svg>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="thumbnail-cards h-full relative">
+                            <div class="thumbnail-bg-view">
+                                <div class="thumbnail-bg" style="
+                      background-image: url(assets/images/thumb-slider.jpg);
+                    "></div>
+                            </div>
+                            <div class="thumbnail-content">
+                                <h5 class="thumb-title">
+                                    Thumb title
+                                </h5>
+                                <div class="text-info-desc">
+                                    <p>
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+                                    </p>
+                                </div>
+                                <div class="single-btn">
+                                    <a href="#" target="" class="site-btn border-btn sm-btn arrow-btn btn-border-black">
+                                        Read More
+                                        <span class="arrow-move">
+                                            <svg class="first-arrow" xmlns="http://www.w3.org/2000/svg" width="17.726" height="8.71" viewBox="0 0 17.726 8.71">
+                                                <g id="Group_1" data-name="Group 1" transform="translate(-795.813 135.854)">
+                                                    <path id="icon_arrow" data-name="icon arrow" d="M0,21.5H17m0,0h0l-4-4m4.375,3.688L13,25.5" transform="translate(795.813 -153)" fill="none" stroke="#000" stroke-width="1"></path>
+                                                </g>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="thumbnail-cards h-full relative">
+                            <a href="">
+                                <div class="thumbnail-bg-view">
+                                    <div class="thumbnail-bg" style="
+                      background-image: url(assets/images/thumb-slider.jpg);
+                    "></div>
+                                </div>
+                                <div class="thumbnail-content">
+                                    <h5 class="thumb-title">
+                                        Thumb title
+                                    </h5>
+                                    <div class="text-info-desc">
+                                        <p>
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+                                        </p>
+                                    </div>
+                                    <div class="single-btn">
+                                        <span href="#" target="" class="site-btn border-btn sm-btn arrow-btn btn-border-black">
+                                            Read More
+                                            <span class="arrow-move">
+                                                <svg class="first-arrow" xmlns="http://www.w3.org/2000/svg" width="17.726" height="8.71" viewBox="0 0 17.726 8.71">
+                                                    <g id="Group_1" data-name="Group 1" transform="translate(-795.813 135.854)">
+                                                        <path id="icon_arrow" data-name="icon arrow" d="M0,21.5H17m0,0h0l-4-4m4.375,3.688L13,25.5" transform="translate(795.813 -153)" fill="none" stroke="#000" stroke-width="1"></path>
+                                                    </g>
+                                                </svg>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="thumbnail-cards h-full relative">
+                            <a href="">
+                                <div class="thumbnail-bg-view">
+                                    <div class="thumbnail-bg" style="
+                      background-image: url(assets/images/thumb-slider.jpg);
+                    "></div>
+                                </div>
+                                <div class="thumbnail-content">
+                                    <h5 class="thumb-title">
+                                        Thumb title
+                                    </h5>
+                                    <div class="text-info-desc">
+                                        <p>
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+                                        </p>
+                                    </div>
+                                    <div class="single-btn">
+                                        <span href="#" target="" class="site-btn border-btn sm-btn arrow-btn btn-border-black">
+                                            Read More
+                                            <span class="arrow-move">
+                                                <svg class="first-arrow" xmlns="http://www.w3.org/2000/svg" width="17.726" height="8.71" viewBox="0 0 17.726 8.71">
+                                                    <g id="Group_1" data-name="Group 1" transform="translate(-795.813 135.854)">
+                                                        <path id="icon_arrow" data-name="icon arrow" d="M0,21.5H17m0,0h0l-4-4m4.375,3.688L13,25.5" transform="translate(795.813 -153)" fill="none" stroke="#000" stroke-width="1"></path>
+                                                    </g>
+                                                </svg>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="thumbnail-cards h-full relative">
+                            <a href="">
+                                <div class="thumbnail-bg-view">
+                                    <div class="thumbnail-bg" style="
+                      background-image: url(assets/images/thumb-slider.jpg);
+                    "></div>
+                                </div>
+                                <div class="thumbnail-content">
+                                    <h5 class="thumb-title">
+                                        Thumb title
+                                    </h5>
+                                    <div class="text-info-desc">
+                                        <p>
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+                                        </p>
+                                    </div>
+                                    <div class="single-btn">
+                                        <span href="#" target="" class="site-btn border-btn sm-btn arrow-btn btn-border-black">
+                                            Read More
+                                            <span class="arrow-move">
+                                                <svg class="first-arrow" xmlns="http://www.w3.org/2000/svg" width="17.726" height="8.71" viewBox="0 0 17.726 8.71">
+                                                    <g id="Group_1" data-name="Group 1" transform="translate(-795.813 135.854)">
+                                                        <path id="icon_arrow" data-name="icon arrow" d="M0,21.5H17m0,0h0l-4-4m4.375,3.688L13,25.5" transform="translate(795.813 -153)" fill="none" stroke="#000" stroke-width="1"></path>
+                                                    </g>
+                                                </svg>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end  -->
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="assets/js/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="assets/js/slick.js"></script>
+<script type="text/javascript" src="assets/js/scripts.js"></script>
+<script type="text/javascript" src="assets/js/custom-slick.js"></script>
+
+</html>

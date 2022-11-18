@@ -1,0 +1,191 @@
+/*common css*/
+.right-move-column {
+    margin-right: calc(-50vw + 50%);
+}
+
+.thumbnail-slider {
+    position: relative;
+}
+
+.thumbnail-slider .slider-head {
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 48px;
+    display: flex;
+}
+
+.thumbnail-slider .slider-head .slider-title {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.thumbnail-slider .arrow-custom {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.arrow-custom .arrow-style {
+    margin-left: 20px;
+    cursor: pointer;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+}
+
+.arrow-custom .arrow-style:first-child {
+    margin-left: 0px;
+}
+
+
+.slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+.thumbnail-slider .slick-bg-slider .slick-list {
+    padding-right: 130px;
+}
+
+
+.thumbnail-slider .slick-list .slick-track {
+    display: flex !important;
+}
+
+.thumbnail-slider .slick-list .slick-track .slick-slide {
+    height: auto !important;
+    padding-right: 15px;
+}
+
+.thumbnail-slider .slick-slide>div {
+    height: 100%;
+}
+
+.thumbnail-slider .thumbnail-cards {
+    padding-bottom: 65px;
+}
+
+.thumbnail-slider .thumbnail-bg-view {
+    margin-bottom: 20px;
+}
+
+.thumbnail-slider .thumbnail-bg-view .thumbnail-bg {
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.thumbnail-slider .thumbnail-bg-view .text-info-desc {
+    color: #000;
+}
+
+.thumbnail-slider .slick-slider .slick-arrow {
+    display: none;
+}
+
+.thumbnail-cards .thumbnail-content .single-btn {
+    position: absolute;
+    bottom: 0;
+}
+
+
+.thumbnail-cards .thumbnail-content .single-btn .site-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000;
+    background-color: transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #000;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+}
+
+.thumbnail-cards .thumbnail-content .single-btn .arrow-move {
+    position: relative;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 9px;
+}
+
+.thumbnail-cards .thumbnail-content .single-btn .site-btn:hover {
+    background: #000;
+    color: #fff;
+    border-color: #000;
+}
+
+.thumbnail-cards .thumbnail-content .single-btn .site-btn:hover svg path {
+    stroke: #fff;
+}
+
+
+@media(max-width: 991px) {
+    .thumbnail-slider .slick-bg-slider .slick-list {
+        padding-right: 102px;
+    }
+
+    .thumbnail-cards .thumbnail-content {
+        padding: 0;
+    }
+}
+
+@media(max-width: 767px) {
+    .thumbnail-slider .slider-head .slider-title {
+        flex: 100% 0 0;
+        margin-bottom: 20px;
+    }
+
+    .thumbnail-slider .slick-bg-slider .slick-list {
+        padding-right: 100px;
+    }
+
+    .thumbnail-cards .thumbnail-bg-view .thumbnail-bg {
+        height: 330px;
+    }
+}
+
+@media(max-width: 374px) {
+    .thumbnail-slider .slick-bg-slider .slick-list {
+        padding-right: 60px;
+    }
+}
+
+@media(max-width: 319px) {
+    .thumbnail-slider .slick-bg-slider .slick-list {
+        padding-right: 40px;
+    }
+}
+
+
+/*left visible*/
+.left-visible .slick-list {
+    overflow: visible;
+}
+
+/*end*/
