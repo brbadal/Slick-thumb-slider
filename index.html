@@ -139,18 +139,18 @@
     <!-- #masthead -->
     <div class="main-content">
         <div class="container">
-            <section class="thumbnail-slider">
+            <section id="arrow1" class="thumbnail-slider">
                 <div class="slider-head">
                     <h2 class="slider-title">Thumb Slider</h2>
                     <div class="slider-arrow2 arrow-custom">
-                        <span class="Slick-Prev slick-arrow arrow-style slick-active">
+                        <span class="Slick-Prev1 Slick-Prev slick-arrow arrow-style slick-active disabled">
                             <span class="arrow-move">
                                 <svg class="first-arrow" xmlns="http://www.w3.org/2000/svg" width="46.414" height="22.828" viewBox="0 0 46.414 22.828">
                                     <path id="arrow" d="M1,11H45m0,0L34.647,1M45,11,34.647,21" transform="translate(46.414 22.414) rotate(180)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
                                 </svg>
                             </span>
                         </span>
-                        <span class="Slick-Next slick-arrow arrow-style slick-active">
+                        <span class="Slick-Next1 Slick-Next slick-arrow arrow-style slick-active">
                             <span class="arrow-move">
                                 <svg class="first-arrow" xmlns="http://www.w3.org/2000/svg" width="46.414" height="22.828" viewBox="0 0 46.414 22.828">
                                     <path id="arrow" d="M1,11H45m0,0L34.647,1M45,11,34.647,21" transform="translate(0 0.414)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
@@ -330,18 +330,18 @@
             </section>
             <div class="space" style="height: 150px;"></div>
             <!-- visible on left -->
-            <section class="thumbnail-slider left-visible">
+            <section id="arrow2" class="thumbnail-slider left-visible">
                 <div class="slider-head">
                     <h2 class="slider-title">Thumb Slider left visible on scroll</h2>
                     <div class="slider-arrow3 arrow-custom">
-                        <span class="Slick-Prev slick-arrow arrow-style slick-active">
+                        <span id="arrow-prev" class="Slick-Prev slick-arrow arrow-style slick-active disabled">
                             <span class="arrow-move">
                                 <svg class="first-arrow" xmlns="http://www.w3.org/2000/svg" width="46.414" height="22.828" viewBox="0 0 46.414 22.828">
                                     <path id="arrow" d="M1,11H45m0,0L34.647,1M45,11,34.647,21" transform="translate(46.414 22.414) rotate(180)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
                                 </svg>
                             </span>
                         </span>
-                        <span class="Slick-Next slick-arrow arrow-style slick-active">
+                        <span id="arrow-next" class="Slick-Next slick-arrow arrow-style slick-active">
                             <span class="arrow-move">
                                 <svg class="first-arrow" xmlns="http://www.w3.org/2000/svg" width="46.414" height="22.828" viewBox="0 0 46.414 22.828">
                                     <path id="arrow" d="M1,11H45m0,0L34.647,1M45,11,34.647,21" transform="translate(0 0.414)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
@@ -416,6 +416,72 @@
                                     </a>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="thumbnail-cards h-full relative">
+                            <a href="">
+                                <div class="thumbnail-bg-view">
+                                    <div class="thumbnail-bg" style="
+                      background-image: url(assets/images/thumb-slider.jpg);
+                    "></div>
+                                </div>
+                                <div class="thumbnail-content">
+                                    <h5 class="thumb-title">
+                                        Thumb title
+                                    </h5>
+                                    <div class="text-info-desc">
+                                        <p>
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+                                        </p>
+                                    </div>
+                                    <div class="single-btn">
+                                        <span href="#" target="" class="site-btn border-btn sm-btn arrow-btn btn-border-black">
+                                            Read More
+                                            <span class="arrow-move">
+                                                <svg class="first-arrow" xmlns="http://www.w3.org/2000/svg" width="17.726" height="8.71" viewBox="0 0 17.726 8.71">
+                                                    <g id="Group_1" data-name="Group 1" transform="translate(-795.813 135.854)">
+                                                        <path id="icon_arrow" data-name="icon arrow" d="M0,21.5H17m0,0h0l-4-4m4.375,3.688L13,25.5" transform="translate(795.813 -153)" fill="none" stroke="#000" stroke-width="1"></path>
+                                                    </g>
+                                                </svg>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="thumbnail-cards h-full relative">
+                            <a href="">
+                                <div class="thumbnail-bg-view">
+                                    <div class="thumbnail-bg" style="
+                      background-image: url(assets/images/thumb-slider.jpg);
+                    "></div>
+                                </div>
+                                <div class="thumbnail-content">
+                                    <h5 class="thumb-title">
+                                        Thumb title
+                                    </h5>
+                                    <div class="text-info-desc">
+                                        <p>
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+                                        </p>
+                                    </div>
+                                    <div class="single-btn">
+                                        <span href="#" target="" class="site-btn border-btn sm-btn arrow-btn btn-border-black">
+                                            Read More
+                                            <span class="arrow-move">
+                                                <svg class="first-arrow" xmlns="http://www.w3.org/2000/svg" width="17.726" height="8.71" viewBox="0 0 17.726 8.71">
+                                                    <g id="Group_1" data-name="Group 1" transform="translate(-795.813 135.854)">
+                                                        <path id="icon_arrow" data-name="icon arrow" d="M0,21.5H17m0,0h0l-4-4m4.375,3.688L13,25.5" transform="translate(795.813 -153)" fill="none" stroke="#000" stroke-width="1"></path>
+                                                    </g>
+                                                </svg>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
                     </div>
                     <div>
